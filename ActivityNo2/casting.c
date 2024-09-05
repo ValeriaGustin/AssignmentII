@@ -2,11 +2,13 @@
 
 void implicit(int integer){
     double implicit_cast;
+    double add;
     
-    implicit_cast = integer;  
+    implicit_cast = 2.5; 
+    add = implicit_cast + integer;
     printf("casting implicito:\n");
     printf("valor entero: %d\n", integer);
-    printf("Despues de convertirlo impicitamente a decimal (double): %f\n\n", implicit_cast);
+    printf("Suma entre entero y decimal(double): %f\n\n", add);
 }
 
 void explicit(double decimal){
